@@ -540,7 +540,7 @@ app.get("/cities/:state", (req, res) => {
   }
 });
 
-// Get events based on state and city
+// Get restaurants based on state and city
 app.get("/restaurants", (req, res) => {
   const { state, city } = req.query;
   console.log(req.query);
